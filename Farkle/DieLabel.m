@@ -7,6 +7,7 @@
 //
 
 #import "DieLabel.h"
+#import <UIKit/UIKit.h>
 
 @implementation DieLabel
 
@@ -17,20 +18,20 @@
         UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapDetected)];
         [self addGestureRecognizer:tapGestureRecognizer];
         self.backgroundColor = [UIColor blackColor];
-    }
 
+    }
     return self;
 }
 
+
 -(void)tapDetected {
-    NSLog(@"Tap detected from DieLabel");
+    NSLog(@"Tap detected from die: %@", self.text);
 }
 
+
 -(void)roll {
-
-    int randomNumber = arc4random_uniform(7);
+    int randomNumber = arc4random_uniform(6) + 1;
     NSLog(@"random number = %i", randomNumber);
-
     self.text = [NSString stringWithFormat:@"%i", randomNumber];
 }
 

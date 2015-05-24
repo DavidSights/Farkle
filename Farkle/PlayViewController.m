@@ -23,7 +23,9 @@
 
 
 - (IBAction)onRollButtonPressed:(id)sender {
-
+    for (DieLabel *dice in self.dieLabels) {
+        [dice roll];
+    }
 }
 
 @end

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
+@property NSMutableArray *dice;
 
 @end
 
