@@ -8,15 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+//Declare a required delegate method called diceSelected
 @protocol DieLabelDelegate <NSObject>
-
-- (void) selectDice;
-
+- (void) diceSelected;
 @end
+
 
 @interface DieLabel : UILabel
 
--(void)roll;
+//Declare a delegate property
 @property (nonatomic, assign) id <DieLabelDelegate> delegate;
+@property BOOL counted;
+
+-(void)roll;
 
 @end

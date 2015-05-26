@@ -10,4 +10,6 @@
 
 @interface PlayViewController : UIViewController
 
+@property NSMutableArray *players;
+
 @end

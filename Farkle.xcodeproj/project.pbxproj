@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A77AAEA1B12A68F00A521A6 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A77AAE91B12A68F00A521A6 /* Player.m */; };
 		9A8F48A91B0E67CB0082F9D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F48A81B0E67CB0082F9D4 /* main.m */; };
 		9A8F48AC1B0E67CB0082F9D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F48AB1B0E67CB0082F9D4 /* AppDelegate.m */; };
 		9A8F48AF1B0E67CB0082F9D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F48AE1B0E67CB0082F9D4 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A77AAE81B12A68F00A521A6 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		9A77AAE91B12A68F00A521A6 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		9A8F48A31B0E67CB0082F9D4 /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8F48A71B0E67CB0082F9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8F48A81B0E67CB0082F9D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				9A8F48AE1B0E67CB0082F9D4 /* ViewController.m */,
 				9A8F48CC1B0E72B50082F9D4 /* PlayViewController.h */,
 				9A8F48CD1B0E72B50082F9D4 /* PlayViewController.m */,
+				9A77AAE81B12A68F00A521A6 /* Player.h */,
+				9A77AAE91B12A68F00A521A6 /* Player.m */,
 				9A8F48CF1B0E75EA0082F9D4 /* DieLabel.h */,
 				9A8F48D01B0E75EA0082F9D4 /* DieLabel.m */,
 				9A8F48B01B0E67CB0082F9D4 /* Main.storyboard */,
@@ -233,6 +238,7 @@
 				9A8F48D11B0E75EA0082F9D4 /* DieLabel.m in Sources */,
 				9A8F48AF1B0E67CB0082F9D4 /* ViewController.m in Sources */,
 				9A8F48AC1B0E67CB0082F9D4 /* AppDelegate.m in Sources */,
+				9A77AAEA1B12A68F00A521A6 /* Player.m in Sources */,
 				9A8F48A91B0E67CB0082F9D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

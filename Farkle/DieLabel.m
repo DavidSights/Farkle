@@ -18,20 +18,20 @@
         UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapDetected)];
         [self addGestureRecognizer:tapGestureRecognizer];
         self.backgroundColor = [UIColor blackColor];
-
+        self.counted = NO;
     }
     return self;
 }
 
 
 -(void)tapDetected {
-    NSLog(@"Tap detected from die: %@", self.text);
+    self.backgroundColor = [UIColor grayColor];
+    [self.delegate diceSelected];
 }
 
 
 -(void)roll {
     int randomNumber = arc4random_uniform(6) + 1;
-    NSLog(@"random number = %i", randomNumber);
     self.text = [NSString stringWithFormat:@"%i", randomNumber];
 }
 
